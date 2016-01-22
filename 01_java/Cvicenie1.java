@@ -11,8 +11,8 @@ final static int N = 16;
 	 * @param n
 	 * @return vrati pocet jednotiek v binarnom zapise cisla n
 	 */
-    public static int binarneJednotky(int n) {
-  		return (n>0)?n%2+binarneJednotky(n/2):0;
+    public static int binarneJednotky(final int n) {
+  		return (n > 0) ? n % 2 + binarneJednotky(n / 2) : 0;
     }
     /**
      * najvacsi spolocny delitel cisel a,b
