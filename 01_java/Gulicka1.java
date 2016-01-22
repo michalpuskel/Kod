@@ -14,5 +14,6 @@ public class Gulicka1 {
 			x += Math.cos(fi);			// priradenie <code>x = x+cos(fi)</code>
 			y += Math.sin(fi);			// priradenie <code>y = y+sin(fi)</code>
 		}
+		System.out.println("done");
 	}
 }
