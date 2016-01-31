@@ -16,5 +16,6 @@ public class Binary {
 	System.out.println("Zadaj N:");
 	int N = in.nextInt();
 	System.out.println("Binarne N:"+toBinary(N));
+	in.close();
   } 
 }

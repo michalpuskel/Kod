@@ -16,5 +16,6 @@ public class Fibonacci1 {
 		a = a+b;
 		b = a - b;
 	}
+	in.close();
   } 
 }

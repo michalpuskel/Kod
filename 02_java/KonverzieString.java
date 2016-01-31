@@ -20,7 +20,7 @@ public class KonverzieString {
 
 		
 		double d1, d2;
-		String t1, t2, t3;
+		String t1, t2;
 		  d1 = Double.valueOf("3.1415");	t1 = String.valueOf(Math.PI);
 		  d2 = Double.parseDouble("3.1415");t2 = Double.toString(Math.PI);
  		  System.out.println(d1);

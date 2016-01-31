@@ -23,7 +23,7 @@ public class MagicSquare {
       return null;
     }
     int[][] res = new int[size][size];
-    if (size % 2 == 1) {
+    if (size % 2 != 0) {
       res = magicEven(size);
     } else {
       return null;

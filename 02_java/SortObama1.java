@@ -1,7 +1,7 @@
 
 import static org.junit.Assert.assertEquals;
 
-public class Lexiko {
+public class SortObama1 {
 
 	public static void main(String[] args) {
 		String alpha1 = "abcdefghijklmnopqrst";
@@ -13,9 +13,9 @@ public class Lexiko {
 		String alpha5 = "01";
 
 		String alpha7 = "10";
-		// System.out.println(compareTo(alpha1, "janko", "marienka"));
-		// System.out.println(compareTo(alpha1, "pat", "mat"));
-		// System.out.println(compareTo("01", "0", "00"));
+		System.out.println(compareTo(alpha1, "janko", "marienka"));
+		System.out.println(compareTo(alpha1, "pat", "mat"));
+		System.out.println(compareTo("01", "0", "00"));
 		System.out.println(compareTo("01", "00", "01"));
 		/*
 		 * System.out.println(compareTo("01", "01", "1"));
@@ -69,7 +69,7 @@ public class Lexiko {
 			return -1;
 		else if (len_1 > len_2 && vrat == 0)
 			return 1;
-		else if (len_1 == len_1 && vrat == 0)
+		else if (len_1 == len_2 && vrat == 0)
 			return 0;
 		else
 			return vrat;

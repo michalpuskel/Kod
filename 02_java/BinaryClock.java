@@ -8,6 +8,7 @@ import java.util.*;
  * @version 2009
  */
 public class BinaryClock extends Applet {
+	private static final long serialVersionUID = 1L;
 	/**
 	 * init nastavi velkost appletu a vytvori a spusti casovac 
 	 */

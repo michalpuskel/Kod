@@ -52,8 +52,6 @@ public class SortObama2 {
 	  ArrayList<Integer> poleInt = generuj(100000);
 	  bubleSortuj(poleInt);
 	  long end = System.currentTimeMillis();
-	  Arrays.
-	  // System.
 	  System.out.println("elapsed time:"+(end - start)/1000);
 	  vypis(poleInt);
   }

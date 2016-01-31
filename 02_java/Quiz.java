@@ -16,7 +16,7 @@ public class Quiz {
 	static String[] p6 = new String[] { null };
 
 	public static void main(String[] args) {
-		System.out.println(s1 == s2);
+		System.out.println(s1 == s2); // takto sa retazce NESMU porovnavat
 		System.out.println(s1 == s3);
 
 		// System.out.println(s1.length());
@@ -33,7 +33,7 @@ public class Quiz {
 		System.out.println(s4.equals(s7));
 		// -----------------------------
 
-		System.out.println(p1.length);
+		System.out.println(p1.length);	// toto zrejme padne na null
 		// System.out.println(p2.length);
 		System.out.println(p3.length);
 		System.out.println(p4.length);
