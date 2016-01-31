@@ -19,6 +19,8 @@ public class Gulicka4 {
 		   for (int t=0; t<10; t++) {	// cyklus, v ktorom simulujeme posun oboch guliciek
 			   g.posun(fi);				// volanie metody posun na objekt ulozeny v premennej g
 			   h.posun(fi);				// to iste pre objekt v premennej h
+			   System.out.println(g.x + ", " + g.y);
+			   System.out.println(h.x + ", " + h.y);
 		   }
 	    }
 }

@@ -23,14 +23,16 @@ public class Gulicka2 {
 		return y+Math.sin(fi);		
 	}
 	/**
-	 * toto je hlavny program
+	 * toto je hlavny program.
 	 * @param args - argumenty prikazoveho riadku, ktore zatial nevyuzivame
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		double x=0.0, y=5.0, fi=0.56;
-		for (int t=0; t<10; t++) {  	// definicia premennej cyklu t priamo v cykle
+		for (int t = 0; t < 10; t++) {  	// definicia premennej cyklu t priamo v cykle
 			x = posunX(x, fi);			// volanie funkcie s dvomi argumentami
 			y = posunY(y,fi);			// a priradenie vyslednej hodnoty do premennej
+			System.out.println(x + ", " + y);
 		}
+		System.out.println("done ");
 	}
 }

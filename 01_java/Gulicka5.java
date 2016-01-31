@@ -20,6 +20,7 @@ public class Gulicka5 {
 			   g.posun(fi);				// volanie metody posun na objekt ulozeny v premennej g
 			   h.posun(fi);				// to iste pre objekt v premennej h
 		   }
+		   System.out.println("done");
 	    }
 }
 class LokalnaGulicka {
