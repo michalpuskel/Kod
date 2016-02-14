@@ -30,5 +30,6 @@ public class Fibonacci {
 		a = a+b;
 		b = a - b;		// vypocitanie noveho fib.cisla
 	}
+	in.close();
   } 
 }

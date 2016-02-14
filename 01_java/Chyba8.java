@@ -13,5 +13,6 @@ public class Chyba8 {
 	  /* Calculate totals */
 	  double total = (pennies * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
 	  System.out.println("Total value = " + total);
+	  in.close();
   }
 }
