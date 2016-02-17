@@ -16,7 +16,7 @@ public class Komentare {
   public static void main(String[] args) {
     double ucet;
     int pocetPiv = 5;
-    ucet = pocetPiv * 1.0;  	// typický komentar
+    ucet = pocetPiv * 1.0;  	// typicky komentar
     System.out.println("Platis = " + ucet);
 
     ucet = pocetPiv * /* 1.0 */ 1.30;  /* 1.0 je za desinku */
